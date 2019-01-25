@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A family run marketing agency focusing on design and marketing in both traditional and digital
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://calibratemedia.ca" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: calibrate_media
+instagram_username:  calibratemediaTO
 
 # Build settings
 markdown: kramdown
