@@ -1422,7 +1422,7 @@ body > header > div > a > img {
   }
 
 .hero p {
-     font-size: 1.4em;
+     font-size: 1em;
     @media screen and (min-width: 680px){
       font-size: 1.6em;
       }
@@ -1432,6 +1432,20 @@ body > header > div > a > img {
   @media screen and (min-width: 1400px){
       font-size: 1.7em;
       }
+}
+
+body > main > div > div > div.hero > div > h1 {
+
+  font-size: 1.4em;
+  @media screen and (min-width: 680px){
+    font-size: 1.6em;
+    }
+@media screen and (min-width: 1224px){
+    font-size: 2em;
+    }
+@media screen and (min-width: 1400px){
+    font-size: 2.3em;
+    }
 }
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
