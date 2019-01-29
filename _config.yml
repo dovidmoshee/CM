@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://calibratemedia.ca" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: calibrate_media
 instagram_username:  calibratemediaTO
+google_analytics: 
 
 # Build settings
 markdown: kramdown
