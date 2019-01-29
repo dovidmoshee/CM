@@ -600,7 +600,7 @@
  .gform_wrapper .list-checkboxes ul.gfield_checkbox,
  .form-contact .list-checkboxes { overflow: hidden; margin: 0 0 20px -11px; }
  .form-contact .list-checkboxes li,
- .gform_wrapper .list-checkboxes ul.gfield_checkbox li { float: left; width: 25% !important; padding-left: 11px !important; margin-bottom: 11px; }
+ .gform_wrapper .list-checkboxes ul.gfield_checkbox li { float: left; width: 50% !important; padding-left: 11px !important; margin-bottom: 11px; }
  
  .gform_wrapper .list-checkboxes {text-align: center;}
  .gform_wrapper .gfield_required { display: none !important; }
@@ -961,7 +961,7 @@
  .section-facts .section-body { padding: 42px 0 55px; }
  .section-facts .section-body .shell { padding: 0 123px 0 110px; }
  .section-facts .section-body ol { list-style: none; margin: 0 -12px; counter-reset: list; overflow: hidden; }
- .section-facts .section-body ol li { float: left; width: 25%; padding: 0 12px; margin-bottom: 76px; font-weight: 500; font-size: 2.17vw; line-height: 1; position: relative; padding-top: 1.6em; }
+ .section-facts .section-body ol li { float: left; width: 50%; padding: 0 12px; margin-bottom: 76px; font-weight: 500; font-size: 2.17vw; line-height: 1; position: relative; padding-top: 1.6em; }
  .section-facts .section-body ol li:before { content: counter(list, decimal-leading-zero); counter-increment: list; position: absolute; left: 12px; top: 0; right: 12px; font-weight: 400; font-size: 1.83vw; color: $brand-color; border-bottom: 1px solid $brand-color; padding-bottom: 12px; }
  .section-facts .section-body ol li:nth-child(4n+1) { clear: left; }
  /* Tablet Portrait */
@@ -1525,7 +1525,7 @@ body > main > div > div > div.hero > div > h1 {
 .section-facts .section-body { padding: 42px 0 55px; }
 .section-facts .section-body .shell { padding: 0 123px 0 110px; }
 .section-facts .section-body ol { list-style: none; margin: 0 -12px; counter-reset: list; overflow: hidden; }
-.section-facts .section-body ol li { float: left; width: 25%; padding: 0 12px; margin-bottom: 76px; font-weight: 500; font-size: 2.17vw; line-height: 1; position: relative; padding-top: 1.6em; }
+.section-facts .section-body ol li { float: left; width: 50%; padding: 0 12px; margin-bottom: 76px; font-weight: 500; font-size: 2.17vw; line-height: 1; position: relative; padding-top: 1.6em; }
 .section-facts .section-body ol li:before { content: counter(list, decimal-leading-zero); counter-increment: list; position: absolute; left: 12px; top: 0; right: 12px; font-weight: 400; font-size: 1.83vw; color: $brand-color; border-bottom: 1px solid $brand-color; padding-bottom: 12px; }
 .section-facts .section-body ol li:nth-child(4n+1) { clear: left; }
 /* Tablet Portrait */
