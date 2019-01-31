@@ -1235,10 +1235,12 @@
  * Site header
  */
 .site-header {
-  min-height: $spacing-unit * 1.865;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
+  min-height: 55.95px;
+  position: fixed;
+  background-color: white;
+  z-index: 9999;
+  width: 100%;
+  padding: 1%;
 }
 
 .site-title {
@@ -1518,7 +1520,7 @@ body > main > div > div > div.hero > div > h1 {
 /* ------------------------------------------------------------ *\
 	Section Facts
 \* ------------------------------------------------------------ */
-.section-facts .section-head { padding: 74px 0;     background-color: #fff;
+.section-facts .section-head { padding: 74px 0;      padding-bottom: 0px;   background-color: #fff;
   text-align: center;
   color: #ee6351; }
 .section-facts .section-head h2 { font-size: 4.35vw; margin: 0; }
@@ -1530,7 +1532,7 @@ body > main > div > div > div.hero > div > h1 {
 .section-facts .section-body ol li:nth-child(4n+1) { clear: left; }
 /* Tablet Portrait */
 @media (max-width: 1023px) {
-	.section-facts .section-head { padding: 44px 0; }
+	.section-facts .section-head { padding: 44px 0;     padding-bottom: 0px; }
 
 	.section-facts .section-body { padding: 23px 0 29px; }
 	.section-facts .section-body .shell { padding: 0 60px; }
@@ -1541,7 +1543,7 @@ body > main > div > div > div.hero > div > h1 {
 }
 /* Mobile */
 @media (max-width: 767px) {
-	.section-facts .section-head { padding: 37px 0; }
+	.section-facts .section-head { padding: 37px 0;     padding-bottom: 0px; }
 	.section-facts .section-head h2 { font-size: 31px; font-weight: 700; }
 
 	.section-facts .section-body { padding: 20px 0 46px; margin-bottom: -30px; }
